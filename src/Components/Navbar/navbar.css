@@ -1,0 +1,36 @@
+.main_nav_container {
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: fixed;
+}
+
+.nav_container {
+    width: 85%;
+    margin: auto;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_container_image_container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav_container_image_container_1 img:first-child {
+    height: 45%;
+}
+
+.nav_container_image_container_1 img:nth-child(2) {
+    width: 2px;
+}
+
+.nav_container_image_container img {
+    height: 65%;
+}

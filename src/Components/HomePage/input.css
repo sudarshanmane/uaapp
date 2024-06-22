@@ -1,0 +1,11 @@
+input{
+      padding: 4px; 
+}
+
+input:focus{
+    border: none;
+}
+
+.form-font-style{
+    font-size: 10px;
+}

@@ -1,0 +1,23 @@
+/* 
+.home_container {
+    display: flex;
+    justify-content: space-between;
+    align-content: end;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 400;
+
+}
+
+.home_container > div {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_container > div:first-child {
+    gap: 20px;
+}
+
+.kickstart{
+    font-size: 24px;
+} */

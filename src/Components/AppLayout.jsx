@@ -2,7 +2,6 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import "./appLayout.css";
-import homeBg from "../images/home_bg.jpg";
 
 const AppLayout = () => {
   return (
@@ -11,7 +10,7 @@ const AppLayout = () => {
         <Navbar></Navbar>
       </div>
       <div>
-        <div className=" m-auto">
+        <div className="w-full">
           <Outlet />
         </div>
       </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import "./home.css";
 import EnquiryForm from "./EnquiryForm";
 import homeCenter from "../../images/home_center.png";
 import LearningApproach from "./LearningApproach";
@@ -13,9 +12,12 @@ const Home = () => {
       className="bg-cover font-santoshi"
       style={{ backgroundImage: `url(${homeBg})` }}
     >
-      <div className="" style={{ background: "rgba(255, 255, 255, 0.8)" }}>
-        <div className="pb-10 w-10/12 m-auto pt-28 relative">
-          <div className="grid z-20  grid-cols-2 relative mt- justify-between items-end  font-santoshi">
+      <div
+        className="w-full"
+        style={{ background: "rgba(255, 255, 255, 0.8)" }}
+      >
+        <div className="pb-10 m-auto pt-28 relative w-full">
+          <div className="grid z-20  grid-cols-1 relative justify-between items-end  font-santoshi">
             <Intro></Intro>
             <EnquiryForm></EnquiryForm>
             <div className="h-52"></div>

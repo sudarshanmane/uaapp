@@ -89,7 +89,7 @@ const EnquiryForm = () => {
               name={"email"}
               type={"email"}
             ></Input>
-            <button className="p-2 px-3 bg-39 text-white w-fit m-auto rounded-2xl">
+            <button className="p-2 px-3 mt-3 bg-39 text-white w-fit m-auto rounded-2xl">
               Enquire Now
             </button>
           </div>

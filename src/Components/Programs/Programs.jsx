@@ -163,7 +163,7 @@ const Programs = () => {
           </div>
         </div>
       </div>
-      <div className="bg-yellow-200 h-52 relative -mt-20 -z-10"></div>
+      <div className="bg-yellow-200 h-36 relative -mt-28 -z-10"></div>
     </div>
   );
 };

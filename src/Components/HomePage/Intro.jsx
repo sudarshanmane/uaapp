@@ -5,14 +5,14 @@ import reading from "../../images/reading.png";
 
 const Intro = () => {
   return (
-    <div className="flex flex-col gap-2">
-      <span className="kickstart font-santoshi text-lg font-semibold">
+    <div className="flex flex-col gap-2 w">
+      <span className="kickstart font-santoshi text-lg text-center  font-semibold">
         KICKSTART YOUR  
       </span>
-      <span className="text-3xl font-bold text text-39">
+      <span className="text-2xl text-center font-bold text text-39">
         IIT JEE/NEET Test Prep,
       </span>
-      <div className="flex flex-col w-9/12 items-center">
+      <div className="flex flex-col items-center">
         <span className="text-39 font-semibold text-sm">Powered by</span>
         <img
           className="w-28 -mt-2"
@@ -29,7 +29,7 @@ const Intro = () => {
           </button>
         </button>
       </div>
-      <div className="flex gap-3 flex-col mt-5">
+      <div className="flex gap-3 flex-row mt-5">
         <div className="flex gap-3 items-center font-bold text-xs">
           <img className="h-7" src={reading} alt="" />
           <div>

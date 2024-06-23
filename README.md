@@ -1,4 +1,4 @@
-# Universal Academt Task
+# Universal Academy Task
 
 This README demonstrates the responsiveness of universal academy project across different screen sizes.
 
@@ -6,8 +6,7 @@ This README demonstrates the responsiveness of universal academy project across 
 
 ### Large Screen View
 
-<img src="[screenshots/large-screen.png](https://github.com/sudarshanmane/Universal-Academy/blob/master/xl_screen.jpeg?raw=true
-)" alt="Large Screen View" width="1600">
+<img src="https://github.com/sudarshanmane/Universal-Academy/blob/master/xl_screen.jpeg?raw=true" alt="Large Screen View" width="1600">
 
 ### Desktop View
 

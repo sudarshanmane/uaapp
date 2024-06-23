@@ -15,8 +15,8 @@ This README demonstrates the responsiveness of universal academy project across 
 ### Tablet View -------------------
 
 <img src="https://github.com/sudarshanmane/Universal-Academy/blob/master/md_sceen.jpeg?raw=true" alt="Tablet View" width="800">
-<div height="20px"></div>
-### Mobile View
+
+### Mobile View -------------------
 
 <img src="https://github.com/sudarshanmane/Universal-Academy/blob/master/sm_screen.jpeg?raw=true" alt="Mobile View" width="400">
 

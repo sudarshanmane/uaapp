@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         santoshi: ["Satoshi", "sans-serif"],
       },
+      boxShadow: {
+        shadow_1: "rgba(0, 0, 0, 0.35) 0px 5px 15px;",
+      },
       colors: {
         39: "#393d82",
         fd: "#fddf49",

@@ -7,7 +7,7 @@ const EnquireButton = ({ changeColor, text }) => {
   return (
     <button
       className={`text-xs w-fit font-semibold p-3 ${
-        !changeColor ? "bg-29 text-white" : "bg-fd"
+        !changeColor ? "bg-29 text-white" : "bg-fd text-29"
       }  gap-3 flex items-center rounded-full capitalize`}
     >
       {text || "Enquire Now"}

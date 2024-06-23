@@ -113,13 +113,14 @@ const Programs = () => {
     const inSchoolPrepDatails = inSchoolPrep.map((el, index) => {
       return (
         <div
+          role="button"
           onClick={() =>
             setInSchoolPrepState(() => {
               return { active: el.name, details: el };
             })
           }
           key={el.name + index}
-          className={`border p-3 rounded-t-2xl text-sm font-semibold ${
+          className={`border p-3 rounded-t-2xl text-sm md:text-xs xl:text-sm font-semibold ${
             el.name === inSchoolPrepState.active
               ? "bg-29 text-white"
               : "bg-e8 text-29"
@@ -134,37 +135,42 @@ const Programs = () => {
   }, [inSchoolPrepState]);
 
   return (
-    <div>
-      <div className="w-10/12 m-auto mt-10">
-        <div className="flex justify-center flex-col text-center m-auto text-lg">
-          <span className="font-semibold">OUR</span>
-          <span className="text-2xl text-29 font-bold">PROGRAMS</span>
-        </div>
-        <div className="mt-10 grid grid-cols-2 gap-16">{programCards}</div>
-
-        <div className="flex gap-2 mt-28  justify-center relative -mb-5">
-          {inSchoolPrepButton}
-        </div>
-
-        <div className="flex justify-between h-56 gap-10 bg-white shadow-lg px-10 py-10">
-          <div className="flex flex-col justify-between">
-            <div className="text-2xl font-semibold text-29">
-              {inSchoolPrepState.active}
-            </div>
-            <div className="text-xs">
-              Lectures will happen on campus during school hours with our
-              esteemed faculty powered by PACE, so students don’t need to go
-              anywhere for extra coaching or tuition classes.
-            </div>
-            <EnquireButton></EnquireButton>
+    <>
+      <div className="w-11/12 md:w-10/12  m-auto rounded-b-xl">
+        <div className="md:w-11/12 m-auto mt-10 ">
+          <div className="flex justify-center flex-col text-center m-auto text-lg">
+            <span className="font-semibold">OUR</span>
+            <span className="text-2xl text-29 font-bold">PROGRAMS</span>
           </div>
-          <div className="w-7/12 rounded-2xl overflow-hidden h-full flex items-center justify-center">
-            <img className="w-full" src={school_preperation} alt="" />
+          <div className="mt-10 grid md:grid-cols-2 grid-cols-1 md:gap-10 gap-16  md:mb-10 sm:mb-28">
+            {programCards}
+          </div>
+
+          <div className="shadow-shadow_1 md:mt-28 mt-20 rounded-xl ">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:flex gap-2 px-4 justify-center relative -top-6">
+              {inSchoolPrepButton}
+            </div>
+            <div className="flex  lg:grid  lg:grid-cols-2 flex-col lg:flex-row items-center justify-between gap-10 bg-white shadow-lg px-10 rounded-b-xl">
+              <div className="flex flex-col items-center lg:items-start gap-3 justify-between text-center lg:text-start">
+                <div className="text-2xl font-semibold  text-29">
+                  {inSchoolPrepState.active}
+                </div>
+                <div className="text-base">
+                  Lectures will happen on campus during school hours with our
+                  esteemed faculty powered by PACE, so students don’t need to go
+                  anywhere for extra coaching or tuition classes.
+                </div>
+                <EnquireButton></EnquireButton>
+              </div>
+              <div className="md:w-9/12 lg:w-full sm:h-60  -mt-4 mb-10 rounded-2xl overflow-hidden h-full flex items-center justify-center">
+                <img className="w-full" src={school_preperation} alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div className="bg-yellow-200 h-36 relative -mt-28 -z-10"></div>
-    </div>
+    </>
   );
 };
 

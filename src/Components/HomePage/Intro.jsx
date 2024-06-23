@@ -5,14 +5,14 @@ import reading from "../../images/reading.png";
 
 const Intro = () => {
   return (
-    <div className="flex flex-col gap-2 w">
-      <span className="kickstart font-santoshi text-lg text-center  font-semibold">
+    <div className="flex flex-col gap-2">
+      <span className="kickstart font-santoshi text-lg base text-center lg:text-left  font-semibold">
         KICKSTART YOUR  
       </span>
-      <span className="text-2xl text-center font-bold text text-39">
+      <span className="text-2xl text-center lg:text-left font-bold text text-39">
         IIT JEE/NEET Test Prep,
       </span>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center lg:items-start lg:ml-20">
         <span className="text-39 font-semibold text-sm">Powered by</span>
         <img
           className="w-28 -mt-2"
@@ -20,7 +20,7 @@ const Intro = () => {
           alt="pace_medical_image"
         ></img>
       </div>
-      <div className="flex flex-row items-center gap-3 mt-5">
+      <div className="lg:flex hidden flex-row justify-start items-center gap-3 mt-5">
         <span className="font-semibold ">ADMISSIONS OPEN</span>
         <button className="bg-39 p-2 px-3 flex flex-row gap-5 items-center rounded-full ">
           <span className="text-white text-xs">Enquiry Now</span>
@@ -29,7 +29,7 @@ const Intro = () => {
           </button>
         </button>
       </div>
-      <div className="flex gap-3 flex-row mt-5">
+      <div className="flex gap-3 flex-row lg:flex-col mt-5 m-auto lg:m-px">
         <div className="flex gap-3 items-center font-bold text-xs">
           <img className="h-7" src={reading} alt="" />
           <div>

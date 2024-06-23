@@ -106,7 +106,6 @@ const Programs = () => {
   });
 
   useEffect(() => {
-    console.log(inSchoolPrepState);
   }, [inSchoolPrepState]);
 
   useEffect(() => {

@@ -11,13 +11,13 @@ const EnquireButton = ({ changeColor, text }) => {
       }  gap-3 flex items-center rounded-full capitalize`}
     >
       {text || "Enquire Now"}
-      <button
+      <div
         className={`h-5 w-5 rounded-full ${
           changeColor ? "bg-29" : "bg-fd"
         } p-1 `}
       >
         <img src={changeColor ? right_arrow_yellow : right_arrow} alt="" />
-      </button>
+      </div>
     </button>
   );
 };

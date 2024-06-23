@@ -20,11 +20,36 @@ const SuccessStories = () => {
       <div className="mt-10">
         <CommonCarousel
           cards={[
-            <img src={success_stories_1} className="h-52 rounded-xl" alt="" />,
-            <img src={success_stories_2} className="h-52 rounded-xl" alt="" />,
-            <img src={success_stories_3} className="h-52 rounded-xl" alt="" />,
-            <img src={success_stories_4} className="h-52 rounded-xl" alt="" />,
-            <img src={success_stories_5} className="h-52 rounded-xl" alt="" />,
+            <img
+              key="success_stories_1"
+              src={success_stories_1}
+              className="h-52 rounded-xl"
+              alt=""
+            />,
+            <img
+              key="success_stories_2"
+              src={success_stories_2}
+              className="h-52 rounded-xl"
+              alt=""
+            />,
+            <img
+              key="success_stories_3"
+              src={success_stories_3}
+              className="h-52 rounded-xl"
+              alt=""
+            />,
+            <img
+              key="success_stories_4"
+              src={success_stories_4}
+              className="h-52 rounded-xl"
+              alt=""
+            />,
+            <img
+              key="success_stories_5"
+              src={success_stories_5}
+              className="h-52 rounded-xl"
+              alt=""
+            />,
           ]}
         ></CommonCarousel>
       </div>

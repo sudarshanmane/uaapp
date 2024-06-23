@@ -24,9 +24,9 @@ const Intro = () => {
         <span className="font-semibold ">ADMISSIONS OPEN</span>
         <button className="bg-39 p-2 px-3 flex flex-row gap-5 items-center rounded-full ">
           <span className="text-white text-xs">Enquiry Now</span>
-          <button className="w-5  h-5 bg-yellow-400 rounded-full flex justify-center items-center">
+          <div className="w-5  h-5 bg-yellow-400 rounded-full flex justify-center items-center">
             <img className="h-3" src={right_arrow} alt="" />
-          </button>
+          </div>
         </button>
       </div>
       <div className="flex gap-3 flex-row lg:flex-col mt-5 m-auto lg:m-px">

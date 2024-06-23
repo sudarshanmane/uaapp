@@ -36,12 +36,11 @@ const camp3 = [camp3_1, camp3_2, camp3_3, camp3_4, camp3_5, camp3_6];
 
 const camps = [camp1, camp2, camp3];
 const res = [];
-
+let id = 1;
 for (const key of camps) {
-  console.log(key[0], key);
   let result = (
     <div
-      key={key}
+      key={id++}
       className="mt-6  gap-3 grid md:grid-cols-4 grid-cols-2 items-center justify-center"
     >
       <div className="sm:col-span-2 rounded-lg col-span-1  h-40 overflow-hidden flex item-center justify-center">
